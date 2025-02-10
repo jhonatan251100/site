@@ -51,7 +51,6 @@
     <section id="Projetos">
 
         <h2>Projetos</h2>
-
         <article>
             <h3>Portifólio</h3>
 
@@ -69,10 +68,39 @@
 
             <p>Tem um projeto em mente? entre em contato.</p>
 
-            <address>
-                E-mail: <a href="mail:jhonatanmachadobarros@hotmail.com">jhonatanmachadobarros@gmail.com</a><br>
-                Telefone: <a href="telefone:47992272734">47992272734</a>
-            </address>
+            <form action="">
+
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="name" required><br>
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone" name="telefone"><br>
+
+                <label for="assunto">Assunto</label>
+                <select name="assunto" id="assunto">
+                   <option value="orcamento">Orçamento</option>
+                   <option value="duvida">Dúvida</option>
+                   <option value="outro">Outro</option>
+                </select>  
+
+                <br>
+                
+                <label for="menssagem">Menssagem</label>
+                <textarea name="menssagem" id="menssagem" cols="20" rows="5" required></textarea><br>
+
+                <input type="checkbox" id="inscricao" name="Iscrição">
+                <label for="inscricao">Deseja receber minha newsletter? Fique por dentro.</label>
+               
+                <br>
+
+                <input type="submit" value="Enviar menssagem">
+
+            </form>
+
+
         </section>
     </footer>
 
